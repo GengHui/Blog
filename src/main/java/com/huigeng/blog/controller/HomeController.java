@@ -12,7 +12,7 @@ public class HomeController {
 	
 	@RequestMapping()
 	public String homePage(Map<String,Object>model) {
-		
+		System.out.println("Hello Blog");
 		return "";
 	}
 }
